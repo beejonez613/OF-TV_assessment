@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    margin: 0;
+    padding: 20px;
+    height: auto;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(12,45,105,1) 15%, rgba(0,212,255,1) 100%);
+}
+
+h3{
+    margin: 20px;
+    left: 70px;
+    position: absolute;
+    font-family: 'Mulish', sans-serif;
+    font-size: 45px;
+    color: white;
+}
+
+.image{
+    float: left;
+    padding-left: 70px;
+    gap: 20px;
+    
+}
+
+.content1{
+    width: 100%;
+    position: relative;
+    bottom:50px;
+    left: 10px;
+}
+
+.content2{
+    width: 100%;
+    position: relative;
+    bottom:50px;
+    left: 10px;
+}
+
+.content3{
+    width: 100%;
+    position: relative;
+    bottom:50px;
+    left: 10px;
+}
+
+h4 {
+    color: white;
+}
+h5 {
+    color: white;
+}
+
+.logo-image1{
+    width: 140px;
+    height: 50px;
+    position: relative;
+    top: 100px;
+    left: 10px;
+    border: 3px double rgba(17, 208, 233, 0.822);
+    border-radius: 5px;
+    color: rgba(17, 208, 233, 0.822);
+    font-family: 'Mulish', sans-serif;
+    font-size: 1.5625em;
+    text-align: center;
+}
+
+.logo-subtitle1 > p{
+    position: relative;
+    top: 100px;
+    left: 10px;
+    color: rgba(17, 208, 233, 0.822);
+    font-family: 'Mulish', sans-serif;
+    font-size: 0.9375em;
+}
+.logo-image2{
+    width: 140px;
+    height: 50px;
+    position: relative;
+    top: 100px;
+    left: 60%;
+    border: 3px double rgba(17, 208, 233, 0.822);
+    border-radius: 5px;
+    color: rgba(17, 208, 233, 0.822);
+    font-family: 'Mulish', sans-serif;
+    font-size: 1.5625em;
+    text-align: center;
+}
+
+.logo-subtitle2 > p{
+    position: relative;
+    top: 100px;
+    left: 65%;
+    color: rgba(17, 208, 233, 0.822);
+    font-family: 'Mulish', sans-serif;
+    font-size: 0.9375em;
+}
+.logo-image3{
+    width: 140px;
+    height: 50px;
+    position: relative;
+    top: 80px;
+    left: 60%;
+    border: 3px double rgba(17, 208, 233, 0.822);
+    border-radius: 5px;
+    color: rgba(17, 208, 233, 0.822);
+    font-family: 'Mulish', sans-serif;
+    font-size: 1.5625em;
+    text-align: center;
+}
+
+.logo-subtitle3 > p{
+    position: relative;
+    top: 80px;
+    left: 69%;
+    color: rgba(17, 208, 233, 0.822);
+    font-family: 'Mulish', sans-serif;
+    font-size: 0.9375em;
+    
+}
+
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+img{
+    width: 375px;
+    height: auto;
+    border-radius: 10px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .main-images {
+        background-color: aqua;
+    }
+    .logo-subtitle1 > p {
+        font-size: 15px;
+    }
+    .logo-subtitle2 > p {
+        font-size: 15px;
+    }
+    .logo-subtitle3 > p {
+        font-size: 15px;
+    }
+    .logo-image1{
+        font-size: 25px;
+    }
+    .logo-image2{
+        font-size: 25px;
+    }
+    .logo-image3{
+        font-size: 25px;
+    }
+}
+
